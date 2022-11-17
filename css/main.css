@@ -16,4 +16,16 @@
     left: 88%;
 
     z-index: 999;
+    animation: btn 3s infinite;
+}
+
+.activate:hover{
+    scale: 1.1;
+    animation: none;
+}
+
+@keyframes btn{
+    0% {transform: scale(1)}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
 }
